@@ -1,0 +1,59 @@
+body {
+  font-weight: bold;
+  background-color: rgb(43, 43, 43);
+  padding: 50px
+}
+
+p {
+  font-size: large;
+}
+
+.pokemon {
+  border: solid 1px white;
+  margin: 5px
+}
+
+.profilPokemon {
+  border: solid 2px lightgreen;
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+}
+
+.pokemonName {
+  font-weight: bolder;
+  font-size:x-large;
+}
+
+img {
+  max-width: 150px;
+}
+
+.pokeList {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.profilDetail {
+  display: block;
+}
+.typeDetail img {
+  max-width: 80px;
+}
+
+.typeDetail {
+  display: flex;
+}
+
+.statsDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.statsDetail p {
+  margin: 5px;
+}
+
+.statsDetail p span{
+  color: lightgreen;
+}
